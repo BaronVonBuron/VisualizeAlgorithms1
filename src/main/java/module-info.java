@@ -7,4 +7,5 @@ module visualizealgorithms.visualizealgorithms1 {
     exports visualizealgorithms;
     opens visualizealgorithms.gui.controller to javafx.fxml;
     exports visualizealgorithms.gui.controller;
+    opens visualizealgorithms.gui.model to javafx.base;
 }
